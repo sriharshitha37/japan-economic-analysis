@@ -6,7 +6,7 @@ import wbgapi as wb
 import numpy as np
 from scipy import stats
 
-st.set_page_config(page_title="Japan Workforce Crisis", page_icon="🇯🇵", layout="wide")
+st.set_page_config(page_title="Japan Economic Analysis", page_icon="🇯🇵", layout="wide")
 
 st.markdown("""
 <style>
