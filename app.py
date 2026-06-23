@@ -96,6 +96,10 @@ st.markdown("""
         font-weight: bold;
         margin-bottom: 8px;
     }
+    /* Hide the default Streamlit top toolbar */
+    [data-testid="stToolbar"] {
+        visibility: hidden !important;
+    }
 </style>
 """, unsafe_allow_html=True)
 
@@ -214,7 +218,6 @@ st.markdown("<p style='font-size:17px;color:#8b8fa8;margin-top:-8px;'>Analyzing 
             unsafe_allow_html=True)
 st.markdown("---")
 
-# ─── SIDEBAR ──────────────────────────────────────────────────
 # ─── SIDEBAR ──────────────────────────────────────────────────
 st.sidebar.markdown("""
 <div class='sidebar-header-box'>
@@ -679,7 +682,7 @@ st.sidebar.markdown("""
             </div>
             <div style='display: flex; align-items: center; gap: 8px;'>
                 <span style='font-size: 14px;'>🔗</span>
-                <a href='https://github.com/sriharshithab37' target='_blank' style='color:#ff6b35; text-decoration:none; font-size:11px; font-weight: 500; transition: color 0.2s;'>github.com/sriharshithab37</a>
+                <a href='https://github.com/sriharshitha37/japan-economic-analysis' target='_blank' style='color:#ff6b35; text-decoration:none; font-size:11px; font-weight: 500; transition: color 0.2s;'>github.com/sriharshitha37</a>
             </div>
         </div>
     </div>
